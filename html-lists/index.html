@@ -9,6 +9,7 @@
 <body>
     <h1>The Power of Lists: How Structuring Your Thoughts Can Lead to Achievement!</h1>
     <p>This HTML document is designed to introduce you to the different types of lists that can be created in HTML, while exploring the power of organized thinking. By structuring our thoughts through various list formats, we can set clear goals, track progress, and achieve success. Throughout this document, we will showcase different list elements, from the basic unordered list to the complex nested list, and provide examples of how they can be utilized for personal and professional organization. So let's dive in and explore the many ways in which we can list our way to success!</p>
+        
         <h2>The Power of Lists: Unordered List Example</h2>
         <p>One of the most basic types of lists in HTML is the unordered list. An unordered list is a list of items where the order of the items does not matter. Each item is typically represented by a bullet point or a small icon.</p>
         <p>An unordered list can be used to display a list of features for a product, a set of instructions for completing a task, or a list of items in a navigation menu. Unordered lists are commonly used in combination with other HTML elements, such as hyperlinks and images, to provide additional information or functionality. Here's an example of an unordered list:</p>
@@ -21,6 +22,7 @@
             <li>Go change the world</li>
         </ul>
         <p>As you can see, the items in an unordered list do not need to be listed in any specific order, and each item is represented by a bullet point. This makes unordered lists a great tool for organizing a group of related items or ideas. Try creating an unordered list of your own and see how it can help you change your world!</p>
+        
         <h2>The Power of Lists: Ordered List Example</h2>
         <p>While an unordered list is useful for grouping related items without a specific order, an ordered list is ideal when the sequence of the items is important. In an ordered list, each item is numbered in a specific order, from first to last. Here's an example of an ordered list for a morning routine:</p>
         <ol>
@@ -31,11 +33,9 @@
             <li>Go for a walk</li>
             <li>Go change the world</li>
         </ol>
-
         <p>As you can see, the items in an ordered list are numbered in a specific sequence, from first to last. This makes it a great tool for organizing a group of related items or ideas that need to be presented in a particular order. Try creating an ordered list of your own and see how it can help you stay organized!</p>
        
         <h3>The Power of Lists: Ordered List Example with Start Attribute</h3>
-
         <p>Ordered lists are a great way to present items in a specific order. In HTML, the `start` attribute can be used to set the starting value of an ordered list, rather than always starting at 1. Here's an example:</p>
     
         <ol start="3">
@@ -43,11 +43,9 @@
           <li>Practice guitar</li>
           <li>Pranayama</li>
         </ol>
-    
         <p>In this example, we've used the `start` attribute to begin the ordered list with the number 3, rather than the default 1. This is useful when you want to continue a list from a specific point or when the list is part of a larger set of ordered items. The `start` attribute can be set to any integer value, and is used within the opening tag of the 'ordered list' element.</p>
        
         <h3>The Power of Lists: Ordered List Example with Reversed Attribute</h3>
-
         <p>Ordered lists are a great way to present items in a specific order. In HTML, the `reversed` attribute can be used to reverse the order of the items in an ordered list. Here's an example:</p>
     
         <ol reversed>
@@ -55,66 +53,72 @@
           <li>Go for a walk</li>
           <li>Go to the gym</li>
         </ol>
-    
         <p>In this example, we've used the `reversed` attribute to reverse the order of the items in the ordered list. This is useful when you need to present items in a descending order, such as a countdown or ranking. The `reversed` attribute is used within the opening tag of the `ordered list` element and does not require a value to be set.</p>
        
+        <h3>The Power of Lists: Ordered List Example with Value Attribute</h3>
+         <p>Ordered lists are a great way to present items in a specific order. In HTML, the `value` attribute can be used to set the value of each item in an ordered list. Here's an example:</p>
+
+        <ol>
+        <li value="10">Wake Up</li>
+        <li value="4">Practice guitar</li>
+        <li value="7">Go change the world</li>
+        </ol>
+        <p>In this example, we've used the `value` attribute to set the value of each item in the ordered list. This is useful when you need to specify a specific value for each item in the list, such as when you're referencing a particular item from another part of the document. The `value` attribute is used within the opening tag of the `list items` element.</p>
         <h2>The Power of Lists: Complex Nested List Example</h2>
+        <p>In addition to basic unordered and ordered lists, HTML also allows you to create complex nested lists that include sub-levels and sub-items. Here's an example of a complex nested list:</p>
 
-    <p>In addition to basic unordered and ordered lists, HTML also allows you to create complex nested lists that include sub-levels and sub-items. Here's an example of a complex nested list:</p>
-
-    <ul>
-      <li>Household Chores
-        <ol>
-          <li>Kitchen
-            <ul>
-              <li>Wash dishes</li>
-              <li>Clean countertops</li>
-              <li>Take out garbage</li>
+        <ul>
+            <li>Household Chores
+                <ol>
+                 <li>Kitchen
+                    <ul>
+                    <li>Wash dishes</li>
+                    <li>Clean countertops</li>
+                    <li>Take out garbage</li>
+                </ul>
+                </li>
+                <li>Living Room
+                    <ul>
+                    <li>Vacuum carpet</li>
+                    <li>Dust furniture</li>
+                    <li>Organize shelves</li>
+                </ul>
+             </li>
+                </ol>
+            </li>
+            <li>Work Tasks
+                <ol>
+                <li>Project A
+                    <ul>
+                    <li>Research</li>
+                    <li>Planning</li>
+                    <li>Execution</li>
+                    </ul>
+                </li>
+                <li>Project B
+                    <ul>
+                    <li>Meeting with team</li>
+                    <li>Brainstorming ideas</li>
+                    <li>Design and prototyping</li>
+                    </ul>
+                </li>
+                </ol>
+            </li>
             </ul>
-          </li>
-          <li>Living Room
-            <ul>
-              <li>Vacuum carpet</li>
-              <li>Dust furniture</li>
-              <li>Organize shelves</li>
-            </ul>
-          </li>
-        </ol>
-      </li>
-      <li>Work Tasks
-        <ol>
-          <li>Project A
-            <ul>
-              <li>Research</li>
-              <li>Planning</li>
-              <li>Execution</li>
-            </ul>
-          </li>
-          <li>Project B
-            <ul>
-              <li>Meeting with team</li>
-              <li>Brainstorming ideas</li>
-              <li>Design and prototyping</li>
-            </ul>
-          </li>
-        </ol>
-      </li>
-    </ul>
+        <p>In this example, we have created a nested list with three levels of hierarchy. The top-level items are household chores and work tasks, which are unordered. Each top-level item has an ordered list as the second level, which contains sub-items with an unordered list as the third level. The sub-items are indented to show the levels of the list hierarchy, making it easier to understand the structure of the list. This type of complex nested list is useful for breaking down tasks into smaller, more manageable components, and for displaying information in a structured and organized manner.</p>
+        
+        <h2>The Power of Lists: Description List Example</h2>
+        <p>In addition to unordered, ordered, and nested lists, HTML also provides a special type of list called the description list. A description list consists of a series of terms and their definitions. Here's an example of a description list:</p>
 
-    <p>In this example, we have created a nested list with three levels of hierarchy. The top-level items are household chores and work tasks, which are unordered. Each top-level item has an ordered list as the second level, which contains sub-items with an unordered list as the third level. The sub-items are indented to show the levels of the list hierarchy, making it easier to understand the structure of the list. This type of complex nested list is useful for breaking down tasks into smaller, more manageable components, and for displaying information in a structured and organized manner.</p>
-    <h2>The Power of Lists: Description List Example</h2>
+        <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language, used for creating web pages.</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets, used for styling and formatting web pages.</dd>
+        <dt>JavaScript</dt>
+        <dd>A scripting language used for creating dynamic and interactive web pages.</dd>
+        </dl>
 
-    <p>In addition to unordered, ordered, and nested lists, HTML also provides a special type of list called the description list. A description list consists of a series of terms and their definitions. Here's an example of a description list:</p>
-
-    <dl>
-      <dt>HTML</dt>
-      <dd>HyperText Markup Language, used for creating web pages.</dd>
-      <dt>CSS</dt>
-      <dd>Cascading Style Sheets, used for styling and formatting web pages.</dd>
-      <dt>JavaScript</dt>
-      <dd>A scripting language used for creating dynamic and interactive web pages.</dd>
-    </dl>
-
-    <p>In this example, we have created a description list with three terms and their corresponding definitions. The <code>&lt;dl&gt;</code> element is used to create the description list, and each term is defined using the <code>&lt;dt&gt;</code> element, while its corresponding definition is provided using the <code>&lt;dd&gt;</code> element. Description lists are useful for providing context and explanation for technical terms, acronyms, or any other word that requires a definition.</p>
+        <p>In this example, we have created a description list with three terms and their corresponding definitions. The <code>&lt;dl&gt;</code> element is used to create the description list, and each term is defined using the <code>&lt;dt&gt;</code> element, while its corresponding definition is provided using the <code>&lt;dd&gt;</code> element. Description lists are useful for providing context and explanation for technical terms, acronyms, or any other word that requires a definition.</p>
   </body>
 </html>
